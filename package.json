@@ -1,0 +1,17 @@
+{
+  "name": "scamshield-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI classification backend for the ScamShield Android app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "express": "^4.21.2"
+  }
+}

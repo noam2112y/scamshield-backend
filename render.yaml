@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: scamshield-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: DEVICE_SHARED_TOKEN
+        sync: false
